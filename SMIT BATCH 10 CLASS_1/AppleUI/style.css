@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#navbar{
+    background-color: #c9c9ca;
+    position: sticky;
+    top: 0%;
+   
+}
+ul{display: flex;
+    list-style: none;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+#firstsec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./assets/WhatsApp\ Image\ 2023-07-29\ at\ 10.01.28\ AM\ \(1\).jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    width: 100%;
+    
+    color:white;
+    }
+
+#firstsecparasection
+{
+    display: flex;
+    font-size: 20px;
+    gap: 40px;
+    margin: 20px;
+}
+#firstsecparasection a{
+    text-decoration: none;
+    color: #2997ff;
+   
+}
+
+#firstsecpara1{
+    margin-top: 50px;
+    font-size: 60px;
+}
+
+
+/* 2nd image yaha sey start ho rhi hai  */
+
+#secondsec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image:url(./assets/WhatsApp\ Image\ 2023-07-29\ at\ 10.01.29\ AM\ 2.jpeg);
+    background-color: ghostwhite;
+    background-size:cover ;
+    background-position: center;
+    height: 550px;
+    width: 100%
+    
+   color:black;
+    }
+
+#secondsecparasection
+{
+    display: flex;
+    font-size: 20px;
+    gap: 40px;
+    margin: 20px;
+}
+#secondsecparasection a{
+    text-decoration: none;
+    color: #2997ff;
+   
+}
+
+#secondsecpara1{
+    margin-top: 50px;
+    font-size: 60px;
+}
+    /* yaha sey third image ki css hai */
+
+#thirdsec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./assets/WhatsApp\ Image\ 2023-07-29\ at\ 10.01.30\ AM\ 3.jpeg);
+    background-color: ghostwhite;
+    height: 700px;
+    background-size:cover ;
+    background-position: center;
+    width: 100%;
+    /* padding-top: 230px; */
+    
+    
+
+   color:black;
+    }
+
+#thirdsecparasection
+{
+    display: flex;
+    font-size: 20px;
+    gap: 40px;
+    margin: 20px;
+}
+#thirdsecparasection a{
+    text-decoration: none;
+    color: #2997ff;
+   
+}
+
+#thirdsecpara1{
+    margin-top: 50px;
+    font-size: 60px;
+}
+
+ /* yaha sey forth ki left side start hai */
+
+ 
+                
+#twoWindow1{
+    width: 100%;
+    display: flex;
+}
+#card1Side1{
+    width: 50%;
+    background-image: url(./assets/WhatsApp\ Image\ 2023-07-29\ at\ 9.10.05\ PM\ 4th\ left.jpeg);
+    height: 575px;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+#Save{
+    font size: 40px;
+}
+#Plus{
+    font-size: 22px;
+    padding: 5px;
+}
+#textButton4{
+    display: flex;
+    margin-top: 5px;
+    gap: 50px;
+}
+#textButton4 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+}
+
+#card1Side2{
+    width: 50%;
+    background-image: url(./assets/WhatsApp\ Image\ 2023-07-29\ at\ 10.01.28\ AM\ 5.jpeg);
+    height: 575px;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+
+}
+#vision{
+    font size: 40px;
+
+}
+#welcome{
+    font-size: 22px;
+    padding-top: 2px;
+
+}
+#USA{
+    font-size: 19ox;
+    padding-top: 10px;
+    color: grey
+}
+#textButton5{
+    display: flex;
+    margin-top: 15px;
+}
+#textButton5 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+}
+
+/* yaha sey five ki css statrt hai */
+
+#boxes{
+    width: 100%;
+    display: flex;
+}
+
+#boxside6{
+    width: 50%;
+    background-image: url(./assets/WhatsApp\ Image\ 2023-07-29\ at\ 10.02.05\ AM\ 8.jpeg);
+    height: 575px;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+
+
+}
+
+#Arcade{
+    font size: 40px;
+}
+#Crayola{
+    font-size: 22px;
+    padding: 5px;
+}
+#textButton6{
+    display: flex;
+    margin-top: 5px;
+    gap: 50px;
+}
+#textButton6 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+}
+
+#boxside7{
+    width: 50%;
+    background-image: url(./assets/WhatsApp\ Image\ 2023-07-29\ at\ 10.02.17\ AM\ 9.jpeg);
+    height: 575px;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    flex-direction: column;
+    
+}
+#Card{
+    font size: 40px;
+    padding-top:10px;
+
+}
+#Get{
+    font-size: 22px;
+    padding: 5px;
+
+}
+
+#With{
+    font-size: 22px;
+    padding: 5x;
+
+}
+
+
+
+#textButton7{
+    display: flex;
+    margin-top: 5px;
+    gap: 50px;
+}
+#textButton7 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+}
+
+#Para{
+
+background-color: lightgrey;
+padding: 50px 20px 20px 20px;
+width: 100%;
+
+
+}
+#parasecond{
+    
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-left: 200px;
+    padding-right: 200px;
+
+}
